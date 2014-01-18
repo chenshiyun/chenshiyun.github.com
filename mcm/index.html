@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>MCM 2012 Meritorious Winner by chenshiyun</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">MCM 2012 Meritorious Winner</h1>
+        <p class="header"></p>
+
+      </header>
+      <section>
+        <h1>
+<a name="random-process-a-simulation-model-of-river-rafting" class="anchor" href="#random-process-a-simulation-model-of-river-rafting"><span class="octicon octicon-link"></span></a>Random Process: A Simulation Model of River Rafting</h1>
+
+<hr><h2>
+<a name="abstract" class="anchor" href="#abstract"><span class="octicon octicon-link"></span></a>Abstract</h2>
+
+<p>In this paper, in order to select the best schedule of Big Long River rafting during the tourism season, we need to make a linear river rafting model to take different factors into consideration. One is the maximum carrying capacity of the river. Another is the average encounters per day. And the best schedule should include the type of transportation and travel plans. In this problem, we treat the whole process as <strong>a stochastic procedure</strong>.</p>
+
+<p>Firstly, in order to obtain the number of boats dispatching for a common day, we employ <strong><em>Multi-Channel Single-Phase queuing theory</em></strong> when modeling the system, in which we treat rafting time as waiting time, camping time as service time. As a result, we obtain the average launching times per day.</p>
+
+<p><img src="image/Queue.jpg" alt="alt text" title="Queue Theory">
+Next, with the parameters we get, we consider more factors as random variables, which satisfy specific distribution, such as the velocity of a boat, the duration of every-day rafting, and the starting time of a boat in a day. Then we record the time and spatial situation of a boat in a matrix, and make <strong>a cycling program</strong> to simulate the day-by-day rafting process.</p>
+
+<p>To optimize the schedule, we consider 5 schemes with different ratio of oars to motors for simulation in hopes of <strong>maximizing the average encounters and minimizing the rate of utilization of campsites</strong>. Then we compare the results of these schemes and decide the best schedule with half motors and half oars and the average number of encounter in one day of 0.8722 per ship.</p>
+
+<p>We define the carrying capacity of the river as the maximum number of trips of one day in 180 days, and the rate of utilization as the ratio of the carrying capacity to the campsites number Y. After the simulation of day-by-day rafting process and the comparison of those schemes, we conclude that the value of carrying capacity is 63 trips a day, and 867 more boat trips to be added to the Big Long River’s rafting season.</p>
+
+<p>Our model has a lot of strengths: We treat each trip as stochastic procedure, which <strong>enable a lot of flexibility to the model</strong>; we have definite judgment criteria helping us to screen the best one; we use mature models like queuing theory for simulation. On the other hand, limitations are inevitable. Our queuing system is not closely tally with real case. Our schemes are too limited to find the most desirable one. Also, this model needs more validation from the factual testing.</p>
+
+<h2>
+<a name="outline" class="anchor" href="#outline"><span class="octicon octicon-link"></span></a>Outline</h2>
+
+<p><img src="image/mcm.png" alt="alt text" title="Thesis"></p>
+
+<h2>
+<a name="results" class="anchor" href="#results"><span class="octicon octicon-link"></span></a>Results</h2>
+
+<p><img src="image/results.jpg" alt="alt text" title="Comparison"></p>
+
+<h2>
+<a name="reference" class="anchor" href="#reference"><span class="octicon octicon-link"></span></a>Reference</h2>
+
+<p>[1] Randy  Gimblett Susan  Cherry, Michael  J Meitner and  Terry  Daniel.    The Simulation and  Visualization of Complex  Human-environment Interactions. <em>Landscape and Urban Planning</em>, Volume  54:Pages  63–79, Issues  1-4, 25 May
+2001.</p>
+
+<p>[2] Jan W. Van Wagtendonk.  The Wilderness Simulation Model.  <em>International Journal of Wilderness</em>, VOLUME 9:NUMBER 2, AUGUST 2003.</p>
+
+<p>[3] QIU  Rong-xu  WU  Jing  and  LI Shan.    A  Review   and  Prospect of  Agent- based  Modeling in Tourism Simulation.  <em>Geography and Geo-Information Science</em>, VOLUME 25:NUMBER 5, September 2009.</p>
+
+<p>[4] Ronald  E. Borkan Heaton Underhill,  Busa Xaba. The Wilderness Use Simulation Applied to Colorado River  Boating in Grand Canyon  National  Park.  <em>USA Environmental Management</em>, Vol.10, No.3:pp.367–374.</p>
+
+<p>[5] The Fig of Hikes &amp; Sites of the Canyon. 2011 dates/fares. <a href="http://canyonx.com/">http://canyonx.com/</a>. </p>
+
+<p>[6] Randy  Gimblett and  Catherine A. Roberts.   Computer Simulation for Raft-
+ing  Traffic  on  the  Colorado River.  <a href="http://mathcs.holycross.edu/">http://mathcs.holycross.edu/</a> croberts/RE-
+SEARCH/GCRTSim/reports.html.</p>
+
+<p>[7] Randy  Gimblett and  Catherine A. Roberts.   Intelligent Agent  Modeling for Simulating and  Evaluating River  Trip  Scheduling Scenarios for  the  Grand Canyon  National Park.  <a href="http://mathcs.holycross.edu/">http://mathcs.holycross.edu/</a> croberts/RESEARCH/GCRT- Sim/reports.html.</p>
+
+<h1>
+<a name="downloads" class="anchor" href="#downloads"><span class="octicon octicon-link"></span></a>Downloads</h1>
+
+<p>Full Paper: <a href="attachments/MCM_csy.pdf">mcm_csy.pdf</a></p>
+
+<h1>
+<a name="feedback" class="anchor" href="#feedback"><span class="octicon octicon-link"></span></a>Feedback</h1>
+
+<p>If you have any question, please let me know <a href="mailto:jasminecsy1990@gmail.com">jasminecsy1990 at gmail dot com</a></p>
+      </section>
+      <footer>
+        <p></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
